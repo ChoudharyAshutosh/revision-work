@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.home_content{
+    margin-top: 6rem;
+}
+.normal_statement{
+    font-size: 120%;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.larger_statement,.larger_statement_focused{
+    font-size: 500%;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.larger_statement{
+    color: red;
+}
+.start_button{
+    color: white;
+    background-color: black;
+    padding: 1.3rem 2rem;
+    border-radius: 50px;
+    border-color: white;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 4%;
+}
+@media screen and (max-width:700px){
+    .container{
+        flex-direction: row;
+    }
+    .header{
+        height: 100vh;
+        min-width: 274px;
+        width:40%;
+    }
+    .larger_statement_focused{
+        white-space: nowrap;
+    }
+}

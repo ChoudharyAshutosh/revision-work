@@ -1,0 +1,57 @@
+.nonlast_tag{
+    margin-right: 7%;
+}
+.last_tag{
+    margin-right: 0%;
+}
+.tag_name{
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bold;
+}
+.tag_name:hover{
+    color: red;
+}
+.dot00,.dot10,.dot02,.dot12{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+}
+.dot10{
+    background-color:red;
+    margin-left: 1em;
+}
+.dot02,.dot12{
+    height: 10px;
+    width: 10px;
+    background-color:red;
+    border-radius: 50%;
+    margin-left: 1em;
+    margin-top: 5px;
+    position: absolute;
+    z-index: 2;
+}
+.list_data0,.list_data2{
+    width:fit-content;
+    z-index:0;
+    background-color: white;
+    color:black;
+    display: none;
+    position: absolute;
+}
+.list_data2{
+    display: inline-block;
+    margin-top: 10px;
+}
+.list_item{
+    text-transform: uppercase;
+    font-size: small;
+    padding: 8% 0%;
+    margin : 0% 10%;
+    border-bottom: 1px solid lightgrey;
+}
+.list_item:hover{
+    color: red;
+}
